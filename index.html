@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JustBurger</title>
+        <link rel="icon" href="assets/img/FavIcon.png" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets\css\styles.css">
+        
+    </head>
+    <body>
+        <div class="title"><img class="logo" src="assets/img/JUST_BURGER.gif"></div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#navbar"> Home</a></li>
+                <li><a href="#contatti">Contact</a></li>
+                <li><a href="#doveSiamo">Where</a></li>
+              </ul>
+        </div>
+        <div class ="menu"> <div class="container2"> <img class="menulogo" src="assets/img/MenuLogo.png" alt="menulogo"></div>
+            <div id="menu">
+              <div class="menu-item">
+                <div class="itemName" ><img  class="sample" src="assets/img/1.png" alt="pano"> </div>
+                <button class="bottun" onclick="addToCart('Il Classico')">Aggiungi al carrello</button>
+              </div>
+              <div class="menu-item">
+                <div class="itemName"><img  class="sample" src="assets/img/2.png" alt="pano"></div>
+                <button class="bottun" onclick="addToCart('Il Vegano')">Aggiungi al carrello</button>
+              </div>
+              <div class="menu-item">
+                <div class="itemName"><img  class="sample" src="assets/img/3.png" alt="pano"></div>
+                <button class="bottun" onclick="addToCart('Filippo')">Aggiungi al carrello</button>
+              </div>
+            </div>
+            <div id="menu">
+              <div class="menu-item">
+                <div class="itemName" ><img  class="sample" src="assets/img/4.png" alt="pano"> </div>
+                <button class="bottun" onclick="addToCart('Il Tartufato')">Aggiungi al carrello</button>
+              </div>
+              <div class="menu-item">
+                <div class="itemName"><img  class="sample" src="assets/img/5.png" alt="pano"></div>
+                <button class="bottun" onclick="addToCart('Il Pistacchioso')">Aggiungi al carrello</button>
+              </div>
+              <div class="menu-item">
+                <div class="itemName"><img  class="sample" src="assets/img/6.png" alt="pano"></div>
+                <button class="bottun" onclick="addToCart('Italiano')">Aggiungi al carrello</button>
+              </div>
+            </div>
+            <div id="menu">
+              <div class="menu-item">
+                <div class="itemName" ><img  class="sample" src="assets/img/7.png" alt="pano"> </div>
+                <button class="bottun" onclick="addToCart('Lo Speziato')">Aggiungi al carrello</button>
+              </div>
+              <div class="menu-item">
+                <div class="itemName"><img  class="sample" src="assets/img/8.png" alt="pano"></div>
+                <button class="bottun" onclick="addToCart('Claudio')">Aggiungi al carrello</button>
+              </div>
+              <div class="menu-item">
+                <div class="itemName"><img  class="sample" src="assets/img/9.png" alt="pano"></div>
+                <button class="bottun" onclick="addToCart('Il Messicano')">Aggiungi al carrello</button>
+              </div>
+            </div>
+            <img class="cartlogo" src="assets/img/cart.png" alt="cartlogo">
+            <div class="container">
+            <div id="cart"></div> 
+            <img id="cart1" src="assets/img/carrello.png" alt="cart">
+        <div class="accountForm">
+            <form>
+                <h2>Iscriviti al nostro sito!</h2>
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Cognome:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="indirizzo">Indirizzo di residenza:</label><br>
+            <input type="text" id="indirizzo" name="indirizzo">
+          </form>
+        </div>
+      </div>
+      </div> <div class="container1"> <img class="clown" src="assets/img/footer.png" alt="">
+        <div class="doveSiamo" id="doveSiamo">JustBurger è presente in 4 città italiane: Milano, Torino, Napoli e Bari</div>
+        <div class="collegamentiSocial">
+            Trovaci sui nostri social!-- <a href="https://www.facebook.com/profile.php?id=61555270367293"> <img class="pierluca" src="assets/img/FbIcon.png" alt="FbIcon"> </a>
+             <a href="https://www.instagram.com/just.burger.official2019/"> <img class="pierluca asciutto"  src="assets/img/IgLogo.png" alt="IgLogo"> </a>
+        </div>
+        <footer id="contatti" class="contatti">Telefono: 0473 212132<br>
+            Ufficio centrale: Merano, via Wolkenstein 17 (Bz)
+        </footer>
+      </div>
+        <script src="assets/js/script.js"></script>
+        
+    </body>
+</html>
